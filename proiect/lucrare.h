@@ -9,15 +9,15 @@ class Lucrare
 {
 private:
 	string nume_lucrare;
-	vector<Citate> citate;
-	vector<Bibliografii> bibliografii;
+	vector<Citat> citate;
+	vector<Bibliografie> bibliografii;
 public:
-	Lucrare(string nume, vector<Citate> citate, vector<Bibliografii> bibliografii) :nume_lucrare(nume), citate(citate), bibliografii(bibliografii) {};
-	void adaugaCitat(Citate c)
+	Lucrare(string nume, vector<Citat> citate, vector<Bibliografie> bibliografii) :nume_lucrare(nume), citate(citate), bibliografii(bibliografii) {};
+	void adaugaCitat(Citat c)
 	{
 		citate.emplace_back(c);
 	}
-	void adaugaBibliografie(Bibliografii b)
+	void adaugaBibliografie(Bibliografie b)
 	{
 		bibliografii.emplace_back(b);
 	}

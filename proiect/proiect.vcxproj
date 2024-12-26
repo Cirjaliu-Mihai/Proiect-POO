@@ -131,12 +131,14 @@
     <ClCompile Include="citate.cpp" />
     <ClCompile Include="lucrare.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
     <ClCompile Include="platforma.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bibliografii.h" />
     <ClInclude Include="citate.h" />
     <ClInclude Include="lucrare.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="platforma.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

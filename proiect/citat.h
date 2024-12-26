@@ -1,17 +1,17 @@
-#ifndef CITATE_H
-#define CITATE_H
+#ifndef CITAT_H
+#define CITAT_H
 #include <string>
 using namespace std;
 
-class Citate
+class Citat
 {
 private:
 	string citat,autor;
 public:
-	Citate(string citat, string autor) :citat(citat), autor(autor) {};
+	Citat(string citat, string autor) :citat(citat), autor(autor) {};
 	string getCitat() { return citat; }
 	string getAutor() { return autor; }
-	bool operator==(Citate c)
+	bool operator==(Citat c)
 	{
 		return citat == c.citat && autor == c.autor;
 	}
