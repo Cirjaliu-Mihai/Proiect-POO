@@ -88,19 +88,6 @@ Meniul implementat in `menu.h` si `menu.cpp` ofera urmatoarele optiuni:
 6. **Salvare**: Salveaza datele curente ale platformei intr-un fisier text.
 7. **Iesire**: Permite revenirea la meniul principal sau iesirea din aplicatie.
 
-## Instalare
-1. Cloneaza repository-ul:
-   ```bash
-   git clone https://github.com/utilizator/platforma-gestionare-lucrari.git
-   ```
-2. Compileaza codul:
-   ```bash
-   g++ -std=c++17 -o platforma main.cpp platforma.cpp -I.
-   ```
-3. Ruleaza aplicatia:
-   ```bash
-   ./platforma
-   ```
 
 ## Utilizare
 - Incarca fisiere text cu lucrari folosind functia de meniu.
