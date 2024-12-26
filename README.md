@@ -1,4 +1,4 @@
-# Proiect: Platforma pentru Gestionarea Lucrarilor
+# Proiect:   Platformă de bibliografie academică – gestionarea citărilor și a bibliografiilor
 
 ## Descriere
 Acest proiect implementeaza o platforma software care faciliteaza gestionarea si procesarea lucrarilor academice. Utilizatorii pot incarca fisiere text care contin citate si bibliografii, iar aplicatia extrage si organizeaza aceste informatii intr-o structura usor de accesat. Proiectul include un meniu interactiv care permite gestionarea platformei si a lucrarilor printr-o interfata de tip consola.
