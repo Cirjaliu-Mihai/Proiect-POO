@@ -2,8 +2,8 @@
 #define LUCRARE_H
 #include <vector>
 #include <string>
-#include "citate.h"
-#include "bibliografii.h"
+#include "citat.h"
+#include "bibliografie.h"
 using namespace std;
 class Lucrare
 {

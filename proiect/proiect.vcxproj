@@ -127,16 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bibliografii.cpp" />
-    <ClCompile Include="citate.cpp" />
-    <ClCompile Include="lucrare.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="platforma.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bibliografii.h" />
-    <ClInclude Include="citate.h" />
+    <ClInclude Include="bibliografie.h" />
+    <ClInclude Include="citat.h" />
     <ClInclude Include="lucrare.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="platforma.h" />

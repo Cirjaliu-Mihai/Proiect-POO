@@ -19,8 +19,12 @@ public:
 	void sortareAlfabeticaAutor();
 	void raportCitate(Citat c);
 	void raportBibliografii(Bibliografie b);
-	void citesteLucrareFisier(string numeFisier);
+	bool citesteLucrareFisier(string numeFisier);
 	void sortareLucrari();
+	void afisareCitateSiBibliografii();
+	void afisareLucrari();
+	bool cautareLucrare(string numeLucrare);
+	void afisareLucrare(string numeLucrare);
 };
 
 

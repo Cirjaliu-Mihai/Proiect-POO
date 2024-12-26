@@ -18,15 +18,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="citate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="bibliografii.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="lucrare.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="platforma.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -35,12 +26,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="citate.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="bibliografii.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="lucrare.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -48,6 +33,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="citat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bibliografie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
