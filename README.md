@@ -8,15 +8,16 @@ Acest proiect implementeaza o platforma software care faciliteaza gestionarea si
 - **Procesare:** Extrage automat citatele si bibliografiile si le stocheaza in obiecte de tip `Citat` si `Bibliografie`.
 - **Meniu interactiv:** Ofera optiuni pentru crearea, gestionarea si salvarea unei platforme, utilizand clasa `Menu`.
 - **Afisare:** Listeaza lucrarile, citatele si bibliografiile intr-o forma ordonata.
-- **Sortare:** Ofera functionalitati de sortare alfabetica dupa nume sau autor.
 - **Generare rapoarte:** Verifica daca un citat sau o bibliografie apare in lucrari si afiseaza rezultatele.
 - **Persistenta:** Suporta salvarea si incarcarea datelor in/din fisiere text.
 
 ## Structura Proiectului
 - `main.cpp`: Punctul de intrare al aplicatiei, utilizeaza un meniu pentru a interactiona cu utilizatorul prin intermediul clasei `Menu`.
-- `menu.h`: Declaratia clasei `Menu`, care implementeaza meniul principal si functionalitatile aferente.
+- `menu.h`/`menu.cpp`: Clasa `Menu`, care implementeaza meniul principal si functionalitatile aferente.
 - `platforma.h` / `platforma.cpp`: Contine logica platformei, inclusiv functiile de gestionare a lucrarilor, citatelor si bibliografiilor.
-- `citat.h`: Defineste clasa `Citat`, care reprezinta un citat cu continut si autor.
+- `lucrare.h`: Defineste clasa `Lucrare`, care reprezinta o lucrare formata din citate si bibliografii.
+- `citat.h`: Defineste clasa `Citat`, care reprezinta un citat cu un continut si un autor.
+- `bibliografie.h`: Defineste clasa `Bibliografie`, care reprezinta o bibliografie cu un continut si un autor.
 - `Test.txt` / `Test2.txt`: Fisiere de test care contin exemple de lucrari cu citate si bibliografii.
 
 ## Exemple de Date
@@ -107,16 +108,4 @@ Meniul implementat in `menu.h` si `menu.cpp` ofera urmatoarele optiuni:
 - Sorteaza citatele si bibliografiile dupa nume sau autor.
 - Genereaza rapoarte pentru a verifica prezenta anumitor citate sau bibliografii.
 
-## Contributii
-Contributiile sunt binevenite! Urmeaza acesti pasi:
-1. Realizeaza un fork la repository.
-2. Creeaza o ramura noua:
-   ```bash
-   git checkout -b functionalitate-noua
-   ```
-3. Adauga modificarile tale.
-4. Trimite un pull request.
-
-## Licenta
-Acest proiect este licentiat sub [MIT License](LICENSE).
 
