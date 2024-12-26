@@ -18,57 +18,30 @@ Acest proiect implementeaza o platforma software care faciliteaza gestionarea si
 - `lucrare.h`: Defineste clasa `Lucrare`, care reprezinta o lucrare formata din citate si bibliografii.
 - `citat.h`: Defineste clasa `Citat`, care reprezinta un citat cu un continut si un autor.
 - `bibliografie.h`: Defineste clasa `Bibliografie`, care reprezinta o bibliografie cu un continut si un autor.
-- `Test.txt` / `Test2.txt`: Fisiere de test care contin exemple de lucrari cu citate si bibliografii.
+- `Test.txt` / `Test2.txt`: Fisiere de test care contin exemple de memorare a unor platforme cu lucrari,citate si bibliografii.
 
 ## Exemple de Date
-**Test.txt:**
+**lucrare1.txt:**
 ```
-3
-lucrare1
-2 2
-Este important sa invatam constant.
-Albert Einstein
-Creativitatea este inteligenta care se distreaza.
-Albert Einstein
-Fundamentele programarii
-John Doe
-Ghid practic de scriere academica
-Jane Smith
-lucrare2
-2 2
-AI nu inlocuieste inteligenta umana, ci o amplifica.
-Andrew Ng
-Viitorul apartine celor care isi controleaza tehnologia.
-Elon Musk
-Introducere in Machine Learning
-Ian Goodfellow
-Deep Learning
-Yoshua Bengio
-lucrare3
-2 2
-Arta este o minciuna care ne ajuta sa spunem adevarul.
-Pablo Picasso
-Scrisul este gandirea care devine vizibila.
-Stephen King
-Lumea ca vointa si reprezentare
-Arthur Schopenhauer
-Estetica poeziei moderne
-Paul Valery
+Introducere la lucrarea mea.
+Acesta este un text introductiv despre tema lucrarii.
+Bibliografie:
+"Este important sa invatam constant." - Albert Einstein
+"Creativitatea este inteligenta care se distreaza." - Albert Einstein
+Fundamentele programarii - John Doe
+Ghid practic de scriere academica - Jane Smith
 ```
 
-**Test2.txt:**
+**lucrare2.txt:**
 ```
-1
-lucrare2
-2 2
-AI nu inlocuieste inteligenta umana, ci o amplifica.
-Andrew Ng
-Viitorul apartine celor care isi controleaza tehnologia.
-Elon Musk
-Introducere in Machine Learning
-Ian Goodfellow
-Deep Learning
-Yoshua Bengio
+Lucrare despre inteligenta artificiala.
+Aceasta este o lucrare care exploreaza aspecte teoretice si practice ale AI.
+Bibliografie:
+"AI nu inlocuieste inteligenta umana, ci o amplifica." - Andrew Ng
+"Viitorul apartine celor care isi controleaza tehnologia." - Elon Musk
+Introducere in Machine Learning - Ian Goodfellow
+Deep Learning - Yoshua Bengio
+
 ```
 
 ## Functionalitati ale Meniului Interactiv
